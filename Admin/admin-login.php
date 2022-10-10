@@ -14,7 +14,7 @@
 <body>
     <div class="pane">
         <form action="" class="login-form">
-            <h2 class="form-title">Teacher Log in</h2>
+            <h2 class="form-title">Admin Login</h2>
             <div class="form__group field">
                 <input required placeholder="Username" class="form__field" type="input">
                 <label class="form__label" for="username">Username</label>
@@ -24,10 +24,10 @@
                 <label class="form__label" for="password">Password</label>
             </div>
             <div class="form__group field">
-                <a href="#" class="forgot-pass">Forgot Password</a>
+                <a href="../forgot-pass.php" class="forgot-pass">Forgot Password</a>
             </div>
             <div class="form__group field btn-login-form">
-                <button class="btn-landing-page" onclick=""> LOGIN
+                <button class="btn-landing-page"> LOGIN
                 </button>
             </div>
         </form>

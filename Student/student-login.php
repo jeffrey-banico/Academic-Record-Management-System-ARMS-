@@ -14,7 +14,7 @@
 <body>
     <div class="pane">
         <form action="" class="login-form">
-            <h2 class="form-title">Admin Log in</h2>
+            <h2 class="form-title">Student Login</h2>
             <div class="form__group field">
                 <input required placeholder="Username" class="form__field" type="input">
                 <label class="form__label" for="username">Username</label>

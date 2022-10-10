@@ -217,6 +217,108 @@ html {
 
 /*----------------End Login Page----------------*/
 
+/*----------------Forgot Pass----------------*/
+
+
+
+.head {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 90vw;
+    height: 90vh;
+}
+
+.head .title {
+    align-items: center;
+    text-align: center;
+}
+
+.head .note {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.forgot-form .form-field {
+    position: relative;
+    margin: 20px 0;
+}
+
+.forgot-form .input-text {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-weight: 500;
+    font-size: 15px;
+    border-top: 0px none;
+    border-left: 0px none;
+    border-right: 0px none;
+    line-height: 45px;
+    background: transparent;
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+
+
+}
+
+.forgot-form .label {
+    position: absolute;
+    left: 10px;
+    bottom: 40px;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 600;
+
+}
+
+#btn_user4 {
+    /* Forgotpass page buttons */
+    width: 130px;
+    height: 38px;
+
+    background: #003421;
+    border-radius: 50px;
+    border-style: none;
+
+    color: #FFFF;
+}
+
+#btn_user5 {
+    /* Forgotpass page buttons */
+    width: 130px;
+    height: 38px;
+
+    background: #538B4F;
+    border-radius: 50px;
+    border-style: none;
+
+    color: #FFFF;
+}
+
+.forgot-pass-submit{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    column-gap: 15px;
+}
+
+/*----------------EndForgotPass----------------*/
+
+
 /*----------------Sidebar----------------*/
 
 
