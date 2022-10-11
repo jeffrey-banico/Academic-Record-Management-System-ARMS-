@@ -13,24 +13,26 @@
 
 <body>
     <div class="pane">
-        <form action="" class="login-form">
+        <div class="login-form">
             <h2 class="form-title">Teacher Login</h2>
-            <div class="form__group field">
-                <input required placeholder="Username" class="form__field" type="input">
-                <label class="form__label" for="username">Username</label>
-            </div>
-            <div class="form__group field">
-                <input required placeholder="Password" class="form__field" type="password">
-                <label class="form__label" for="password">Password</label>
-            </div>
-            <div class="form__group field">
-                <a href="#" class="forgot-pass">Forgot Password</a>
-            </div>
-            <div class="form__group field btn-login-form">
-                <button class="btn-landing-page" onclick=""> LOGIN
-                </button>
-            </div>
-        </form>
+            <form action="" method="post">
+                <div class="form__group field">
+                    <input required id="login_username" placeholder="Username" class="form__field" type="input">
+                    <label class="form__label" for="username">Username</label>
+                </div>
+                <div class="form__group field">
+                    <input required id="login_password" placeholder="Password" class="form__field" type="password">
+                    <label class="form__label" for="password">Password</label>
+                </div>
+                <div class="form__group field">
+                    <a href="../forgot-pass.php" class="forgot-pass">Forgot Password</a>
+                </div>
+                <div class="form__group field btn-login-form">
+                    <button id="btn_login" class="btn-landing-page"> LOGIN
+                    </button>
+                </div>
+            </form>
+        </div>
     </div>
     <script src="../bootstrap-5.2.1-dist/js/bootstrap.js"></script>
 </body>

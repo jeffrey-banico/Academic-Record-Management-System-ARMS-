@@ -21,49 +21,58 @@
       </p>
       <div class="container">
         <form action="" method="post">
-
           <div class="forgot-form row">
-            <div class="form-field col-lg-6   ">
-              <input id="idnum" class="input-text" type="text" name="" autocomplete="off">
+            <div class="form-field col-lg-6">
               <label for="idnum" class="label">ID Number/Learners Reference Number:</label>
+              <input id="idnum" class="input-text" type="text" name="">
             </div>
+
             <div class="form-field col-lg-6">
-              <input id="Uname" class="input-text" type="text" name="" autocomplete="off">
               <label for="Uname" class="label">Username:</label>
+              <input id="Uname" class="input-text" type="text" name="" autocomplete="off">
             </div>
+
             <div class="form-field col-lg-6">
-              <input id="Fname" class="input-text" type="text" name="" autocomplete="off">
               <label for="Fname" class="label">First Name:</label>
+              <input id="Fname" class="input-text" type="text" name="" autocomplete="off">
             </div>
+
             <div class="form-field col-lg-6">
-              <input id="Q2" class="input-text" type="text" name="" autocomplete="off">
               <label for="Q2" class="label">What is your favorite game?</label>
+              <input id="Q2" class="input-text" type="text" name="" autocomplete="off">
             </div>
+
             <div class="form-field col-lg-6">
-              <input id="Mname" class="input-text" type="text" name="" autocomplete="off">
               <label for="Mname" class="label">Middle Name:</label>
+              <input id="Mname" class="input-text" type="text" name="" autocomplete="off">
             </div>
+
             <div class="form-field col-lg-6">
-              <input id="Q1" class="input-text" type="text" name="" autocomplete="off">
               <label for="Q1" class="label">What is your favorite animal?</label>
+              <input id="Q1" class="input-text" type="text" name="" autocomplete="off">
             </div>
+            
             <div class="form-field col-lg-6">
-              <input id="Lname" class="input-text" type="text" name="" autocomplete="off">
               <label for="Lname" class="label">Last Name:</label>
+              <input id="Lname" class="input-text" type="text" name="" autocomplete="off">
             </div>
+
             <div class="form-field col-lg-6">
-              <input id="Q3" class="input-text" type="text" name="" autocomplete="off">
               <label for="Q3" class="label">What is your favorite subject?</label>
+              <input id="Q3" class="input-text" type="text" name="" autocomplete="off">
             </div>
+
             <div class="forgot-pass-submit">
-              <button id="btn_user4" onclick="prompt('Enter new Password');">Submit</button>
-              <a href="/index.html"><button id="btn_user5">Cancel</button></a>
+              <button id="btn_submit" class="btn">Submit</button>
+                <button id="btn_cancel" class="btn">Cancel</button>
             </div>
+
         </form>
       </div>
     </div>
   </div>
   </div>
+  <script src="../bootstrap-5.2.1-dist/js/bootstrap.js"></script>
 </body>
 
 </html>

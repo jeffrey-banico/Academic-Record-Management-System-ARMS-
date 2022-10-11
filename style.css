@@ -9,42 +9,37 @@ html {
 }
 
 /*----------------Landing Page----------------*/
-
+/* */
 .landing-page {
     width: 100vw;
     height: 100vh;
     display: flex;
-    align-items: center;
-    align-content: center;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
 }
 
 .title-section {
-    /*border: 5px solid black;*/
-    width: 100vw;
-    height: 10%;
+    width: 80vw;
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    padding-bottom: 20px;
+    flex-wrap: wrap;
+    align-content: flex-end;
 }
 
 .title-name {
+    width: 100%;
     font-weight: bold;
     font-size: 50px;
-    color: #000;
-    text-align: center;
+    color: #212121;
 }
 
 .btn-section {
-    width: 35%;
-    height: initial;
+    width: 40%;
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 5px 5px;
+    gap: 20px 20px;
 }
 
 .btn-landing-page {
@@ -89,6 +84,8 @@ html {
     color: #003421;
 }
 
+/*----------------End Landing Page----------------*/
+
 /*----------------Login Page----------------*/
 
 .pane {
@@ -99,6 +96,7 @@ html {
     align-content: center;
     flex-wrap: wrap;
     justify-content: center;
+    background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=TPClUjiz&id=45A719BACA6405956FA03203514146963F7960A3&thid=OIP.TPClUjizrFG3qPznVIrBPAAAAA&mediaurl=https%3a%2f%2fwww.logolynx.com%2fimages%2flogolynx%2fs_56%2f5628c43280b52a99973b428f9960e086.jpeg&exph=250&expw=250&q=deped&simid=608047458430502872&FORM=IRPRST&ck=157F1FCF197C6FEC8B9E8B076BCACEC3&selectedIndex=7&ajaxhist=0&ajaxserp=0);
 }
 
 
@@ -209,7 +207,7 @@ html {
 
 
 .btn-login-form {
-    padding-top: 50px;
+    padding-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -225,12 +223,13 @@ html {
     position: relative;
     width: 100vw;
     height: 100vh;
+    background-color: #e8e8e8;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.wrapper{
+.wrapper {
     width: 90vw;
     height: 90vh;
 }
@@ -267,10 +266,8 @@ html {
     border-right: 0px none;
     line-height: 45px;
     background: transparent;
-    backdrop-filter: blur(2px);
+    outline: none;
     /* Note: backdrop-filter has minimal browser support */
-
-
 }
 
 .forgot-form .label {
@@ -283,7 +280,16 @@ html {
 
 }
 
-#btn_user4 {
+.forgot-pass-submit {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    column-gap: 15px;
+}
+
+#btn_submit {
     /* Forgotpass page buttons */
     width: 130px;
     height: 38px;
@@ -295,7 +301,7 @@ html {
     color: #FFFF;
 }
 
-#btn_user5 {
+#btn_cancel {
     /* Forgotpass page buttons */
     width: 130px;
     height: 38px;
@@ -305,15 +311,6 @@ html {
     border-style: none;
 
     color: #FFFF;
-}
-
-.forgot-pass-submit{
-    width: 500px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    column-gap: 15px;
 }
 
 /*----------------EndForgotPass----------------*/
