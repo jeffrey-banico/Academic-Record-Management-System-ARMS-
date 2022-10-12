@@ -12,6 +12,7 @@
 </head>
 
 <body>
+  
   <div class="head">
     <div class="wrapper">
       <h1 class="title">Reset Password</h1>
@@ -24,42 +25,42 @@
           <div class="forgot-form row">
             <div class="form-field col-lg-6">
               <label for="idnum" class="label">ID Number/Learners Reference Number:</label>
-              <input id="idnum" class="input-text" type="text" name="">
+              <input id="idnum" class="input-text" type="text" required>
             </div>
 
             <div class="form-field col-lg-6">
               <label for="Uname" class="label">Username:</label>
-              <input id="Uname" class="input-text" type="text" name="" autocomplete="off">
+              <input id="Uname" class="input-text" type="text" required>
             </div>
 
             <div class="form-field col-lg-6">
               <label for="Fname" class="label">First Name:</label>
-              <input id="Fname" class="input-text" type="text" name="" autocomplete="off">
+              <input id="Fname" class="input-text" type="text" required>
             </div>
 
             <div class="form-field col-lg-6">
               <label for="Q2" class="label">What is your favorite game?</label>
-              <input id="Q2" class="input-text" type="text" name="" autocomplete="off">
+              <input id="Q2" class="input-text" type="text" required>
             </div>
 
             <div class="form-field col-lg-6">
               <label for="Mname" class="label">Middle Name:</label>
-              <input id="Mname" class="input-text" type="text" name="" autocomplete="off">
+              <input id="Mname" class="input-text" type="text" required>
             </div>
 
             <div class="form-field col-lg-6">
               <label for="Q1" class="label">What is your favorite animal?</label>
-              <input id="Q1" class="input-text" type="text" name="" autocomplete="off">
+              <input id="Q1" class="input-text" type="text" required>
             </div>
             
             <div class="form-field col-lg-6">
               <label for="Lname" class="label">Last Name:</label>
-              <input id="Lname" class="input-text" type="text" name="" autocomplete="off">
+              <input id="Lname" class="input-text" type="text" required>
             </div>
 
             <div class="form-field col-lg-6">
               <label for="Q3" class="label">What is your favorite subject?</label>
-              <input id="Q3" class="input-text" type="text" name="" autocomplete="off">
+              <input id="Q3" class="input-text" type="text" required>
             </div>
 
             <div class="forgot-pass-submit">
@@ -75,8 +76,9 @@
   <script src="../bootstrap-5.2.1-dist/js/bootstrap.js"></script>
   <script type="text/javascript">
       document.getElementById("btn_cancel").onclick = function () {
-        location.href = "localhost/Academic-Record-Management-System-ARMS-/index.php";
+        location.href = "index.php";
       };
+  </script>
 </body>
 
 </html>

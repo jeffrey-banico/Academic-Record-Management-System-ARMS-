@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 html {
-    font-family: Arial, Helvetica, sans-serif;
     background-color: #e8e8e8;
 }
 
@@ -27,6 +28,7 @@ html {
 }
 
 .title-name {
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     font-weight: bold;
     font-size: 50px;
@@ -39,13 +41,13 @@ html {
     align-items: flex-start;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 20px 20px;
+    gap: 5px 5px;
 }
 
 .btn-landing-page {
     padding: 0.8em 1.8em;
     border: 2px solid #003421;
-    border-radius: 50px;
+    border-radius: 10px;
     position: relative;
     overflow: hidden;
     background-color: transparent;
@@ -96,7 +98,6 @@ html {
     align-content: center;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=TPClUjiz&id=45A719BACA6405956FA03203514146963F7960A3&thid=OIP.TPClUjizrFG3qPznVIrBPAAAAA&mediaurl=https%3a%2f%2fwww.logolynx.com%2fimages%2flogolynx%2fs_56%2f5628c43280b52a99973b428f9960e086.jpeg&exph=250&expw=250&q=deped&simid=608047458430502872&FORM=IRPRST&ck=157F1FCF197C6FEC8B9E8B076BCACEC3&selectedIndex=7&ajaxhist=0&ajaxserp=0);
 }
 
 
@@ -111,15 +112,8 @@ html {
     margin-right: auto;
 }
 
-.login-form:hover {
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
-    transform: scale(1s);
-    transition: 1s ease-in;
-}
-
-
 .form-title {
+    font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
@@ -138,7 +132,7 @@ html {
 }
 
 .form__field {
-    font-family: inherit;
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     border: none;
     border-bottom: 2px solid #9b9b9b;
@@ -155,6 +149,7 @@ html {
 }
 
 .form__field:placeholder-shown~.form__label {
+    font-family: 'Roboto', sans-serif;
     font-size: 17px;
     cursor: text;
     top: 20px;
@@ -223,7 +218,6 @@ html {
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-color: #e8e8e8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -235,12 +229,13 @@ html {
 }
 
 .head .title {
+    font-family: 'Roboto', sans-serif;
     align-items: center;
     text-align: center;
 }
 
 .head .note {
-    font-family: 'Arial';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -259,6 +254,7 @@ html {
     display: block;
     width: 100%;
     height: 40px;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 15px;
     border-top: 0px none;
@@ -290,29 +286,89 @@ html {
 }
 
 #btn_submit {
-    /* Forgotpass page buttons */
-    width: 130px;
-    height: 38px;
-
-    background: #003421;
-    border-radius: 50px;
-    border-style: none;
-
-    color: #FFFF;
+    padding: 0.8em 1.8em;
+    border: 2px solid #003421;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #003421;
 }
+
+#btn_submit::before {
+    content: '';
+    width: 0;
+    height: 500%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #003421;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+#btn_submit:hover::before {
+    width: 105%;
+}
+
+#btn_submit:hover {
+    color: #fff;
+}
+
+#btn_submit:active {
+    color: #003421;
+}
+
 
 #btn_cancel {
-    /* Forgotpass page buttons */
-    width: 130px;
-    height: 38px;
-
-    background: #538B4F;
-    border-radius: 50px;
-    border-style: none;
-
-    color: #FFFF;
+    padding: 0.8em 1.8em;
+    border: 2px solid #00613e;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #00613e;
 }
 
+#btn_cancel::before {
+    content: '';
+    width: 0;
+    height: 500%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #00613e;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+#btn_cancel:hover::before {
+    width: 105%;
+}
+
+#btn_cancel:hover {
+    color: #fff;
+}
+
+#btn_cancel:active {
+    color: #00613e;
+}
 /*----------------EndForgotPass----------------*/
 
 
