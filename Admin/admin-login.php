@@ -32,6 +32,9 @@
                     </button>
                 </div>
             </form>
+            <?php
+                include '../connect.php'
+            ?>
         </div>
     </div>
     <script src="../bootstrap-5.2.1-dist/js/bootstrap.js"></script>

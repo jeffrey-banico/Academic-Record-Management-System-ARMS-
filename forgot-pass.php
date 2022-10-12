@@ -63,8 +63,8 @@
             </div>
 
             <div class="forgot-pass-submit">
-              <button id="btn_submit" class="btn">Submit</button>
-                <button id="btn_cancel" class="btn">Cancel</button>
+              <button id="btn_submit">Submit</button>
+              <button id="btn_cancel">Cancel</button>
             </div>
 
         </form>
@@ -73,6 +73,10 @@
   </div>
   </div>
   <script src="../bootstrap-5.2.1-dist/js/bootstrap.js"></script>
+  <script type="text/javascript">
+      document.getElementById("btn_cancel").onclick = function () {
+        location.href = "localhost/Academic-Record-Management-System-ARMS-/index.php";
+      };
 </body>
 
 </html>
